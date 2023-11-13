@@ -15,15 +15,15 @@
   }
 
   .header_title {
-    @apply text-2xl font-bold mb-1 mini:text-lg mini:m-0
+    @apply text-3xl font-bold mb-1 mini:m-0
   }
 
   .header_subtitle {
-    @apply text-base text-slate-700 font-semibold mini:text-xs
+    @apply text-base text-slate-700 font-semibold mini:text-sm
   }
 
   .header_quote {
-    @apply text-slate-600 text-base italic mb-2 mini:text-xs
+    @apply text-slate-600 text-base italic mb-2 mini:text-sm
   }
 
   .header_tags {
@@ -32,5 +32,21 @@
 
   .header_tag_item {
     @apply border-2 border-slate-400 px-2 py-1 bg-slate-200 rounded-xl
+  }
+
+  .main_title {
+    @apply text-3xl font-bold
+  }
+
+  .main_subtitle {
+    @apply text-base font-semibold mini:text-sm
+  }
+
+  .main_sosial_item {
+    @apply w-full inline-flex items-center gap-x-2 text-slate-800 text-lg font-semibold border-2 border-slate-300 p-4 rounded-xl mb-4 mini:text-base mini:mb-2
+  }
+
+  footer {
+    @apply p-4 text-center text-slate-500 mini:text-xs
   }
 }

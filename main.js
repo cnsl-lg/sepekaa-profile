@@ -30,30 +30,30 @@ document.querySelector('#app').innerHTML = `
       </ul>
     </header>
     <main class="p-4">
-      <h2 class="text-2xl font-bold mini:text-lg">Social Links</h2>
-      <p class="text-base font-semibold mini:text-xs">Here are our social links to tell you that we are exist.</p>
+      <h2 class="main_title">Social Links</h2>
+      <p class="main_subtitle">Here are our social links to tell you that we are exist.</p>
       <ul class="mt-6">
         <li>
-          <a href="https://www.instagram.com/sepekaa_01/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="w-full inline-flex items-center gap-x-2 text-slate-800 text-lg font-semibold border-2 border-slate-300 p-4 rounded-xl mb-4 mini:text-sm mini:mb-2">
-            <img src=${instagramIcon} alt="Instagram Icon" class="w-10 h-10 mini:w-8 mini:h-8" />
+          <a href="https://www.instagram.com/sepekaa_01/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="main_sosial_item">
+            <img src=${instagramIcon} alt="Instagram Icon" class="w-10 h-10 mini:w-9 mini:h-9" />
             <span>Instagram | Sepekaa_01</span>
           </a>
         </li>
         <li>
-          <a href="https://open.spotify.com/user/314ld7wkolp2vipxpmuzaxrbaewe?si=kiZAIoc8QHyN3pbcBzwenA&nd=1" target="_blank" class="w-full inline-flex items-center gap-x-2 text-slate-800 text-lg font-semibold border-2 border-slate-300 p-4 rounded-xl mb-4 mini:text-sm mini:mb-2">
+          <a href="https://open.spotify.com/user/314ld7wkolp2vipxpmuzaxrbaewe?si=kiZAIoc8QHyN3pbcBzwenA&nd=1" target="_blank" class="main_sosial_item">
             <img src=${spotifyIcon} alt="Spotify Icon" class="w-10 h-10 mini:w-8 mini:h-8" />
             <span>Spotify | Spotify Playlist</span>
           </a>
         </li>
         <li>
-          <a href="https://drive.google.com/drive/folders/10zMgesrXg7dqs1cXnP-zlAFdEcq4Q0wd" target="_blank" class="w-full inline-flex items-center gap-x-2 text-slate-800 text-lg font-semibold border-2 border-slate-300 p-4 rounded-xl mb-4 mini:text-sm mini:mb-2">
+          <a href="https://drive.google.com/drive/folders/10zMgesrXg7dqs1cXnP-zlAFdEcq4Q0wd" target="_blank" class="main_sosial_item">
             <img src=${driveIcon} alt="Google Drive Icon" class="w-10 h-10 mini:w-8 mini:h-8" />
             <span>Google Drive | Photo Sepekaa</span>
           </a>
         </li>
       </ul>
     </main>
-    <footer class="p-4 text-center text-slate-500">
+    <footer>
       <p>&copy;Sepekaa_01 2023</p>
     </footer>
   </div>
